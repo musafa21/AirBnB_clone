@@ -21,8 +21,9 @@ The command interpreter is a console application built using Python. It can be u
 
 ### How to Start
 To start the command interpreter in interactive mode, run the following command:
-Execution
+```
 $ ./console.py
+
 (hbnb) help
 
 Documented commands (type help <topic>):
@@ -33,9 +34,9 @@ EOF  help  quit count  create  all show update
 (hbnb) 
 (hbnb) quit
 $
-
+```
 But also in non-interactive mode: (like the Shell project in C)
-
+```
 $ echo "help" | ./console.py
 (hbnb)
 
@@ -55,3 +56,4 @@ Documented commands (type help <topic>):
 EOF  help  quit
 (hbnb) 
 $
+```
